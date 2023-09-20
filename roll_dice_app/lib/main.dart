@@ -4,9 +4,21 @@ import 'package:flutter/material.dart';
 void main() {
   // 메인 함수가 실행되면 그 안에 런앱이 실행되며, UI가 표시되게 된다
   runApp(
-    const MaterialApp(
+    MaterialApp(
       home: Scaffold(
-        body: Text("Hello World!"),
+        body: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Color.fromRGBO(255, 26, 2, 80),
+                Color.fromARGB(255, 45, 7, 98),
+              ],
+            ),
+          ),
+          child: const Center(
+            child: Text("Hello World!"),
+          ),
+        ),
       ),
     ),
   );
