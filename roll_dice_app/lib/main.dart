@@ -5,11 +5,11 @@ import 'package:roll_dice_app/gradient_container.dart';
 void main() {
   // 메인 함수가 실행되면 그 안에 런앱이 실행되며, UI가 표시되게 된다
   runApp(
-    const MaterialApp(
+    MaterialApp(
       home: Scaffold(
         body: GradientContainer(
-          Color.fromARGB(255, 33, 5, 109),
-          Color.fromARGB(255, 68, 21, 149),
+          const Color.fromARGB(255, 33, 5, 109),
+          const Color.fromARGB(255, 68, 21, 149),
         ),
       ),
     ),

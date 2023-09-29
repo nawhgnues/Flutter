@@ -6,14 +6,20 @@ const endAlignment = Alignment.bottomRight;
 class GradientContainer extends StatelessWidget {
   // 위젯 트리에서 위젯이 움직일 때마다 현 상태를 보존하는 역할을 한다.
   // key를 사용하여 다른 페이지를 왔다갔다 할 수 있으며, 위젯트리에서 위치를 변경하더라도 상태정보를 유지한다.(위젯을 유니크하게 식별)
-  const GradientContainer(this.color1, this.color2, {super.key});
+  GradientContainer(this.color1, this.color2, {super.key});
 
-  const GradientContainer.purple({super.key})
+  GradientContainer.purple({super.key})
       : color1 = Colors.deepPurple,
         color2 = Colors.indigo;
 
   final Color color1;
   final Color color2;
+
+  var activeDiceImage = 'assets/images/dice-2.png';
+
+  void rollDice() {
+    activeDiceImage = 'assets/images/dice-4.png';
+  }
 
   @override
   Widget build(context) {
@@ -23,11 +29,29 @@ class GradientContainer extends StatelessWidget {
             colors: [color1, color2], begin: startAlignment, end: endAlignment),
       ),
       child: Center(
-        child: Image.asset(
-          'assets/images/dice-2.png',
-          width: 200,
-        ),
-      ),
+          child: Column(
+        mainAxisSize: MainAxisSize.max,
+        children: [
+          Image.asset(
+            activeDiceImage,
+            width: 200,
+          ),
+          const SizedBox(
+            height: 20,
+          ),
+          TextButton(
+            onPressed: rollDice,
+            style: TextButton.styleFrom(
+              // padding: const EdgeInsets.only(
+              //   top: 20,
+              // ),
+              foregroundColor: Colors.white,
+              textStyle: const TextStyle(fontSize: 28),
+            ),
+            child: const Text('Roll Dice'),
+          )
+        ],
+      )),
     );
   }
 }
