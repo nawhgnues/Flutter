@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		MC4qjqJEOaOxr4swIKRV4tfUPKU=
+		EDG2/yuVDqSx7EPxVzbJM7/moWc=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		y7UZTO7oq6yogMNvyLB1pW1bmeY=
+		Kem2x4ih6Unj9XOtid99fxQz6dI=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		QqaW/r4mMN+mU7ibnXV0Y1HB8X8=
+		rf8bNMBz9tvll9V/gD9i3OjgRYM=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		arA9kl9dgaEAdFLz9+U/KYTbHLA=
+		o+kTz3srvXfjQqqN22GIuCXNPW4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -96,6 +96,10 @@
 		<data>
 		IynubI10GU2JsDz8UMUO6UDEy+E=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/quiz-logo.png</key>
+		<data>
+		qcTE23gfABpgJo5DVE5jnJBsmqE=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
 		/CUoTuPQqqdexfyOT9lpJhV+2MQ=
@@ -106,7 +110,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		d9qhpuJ7CvcLY6EAPckMyfAJes8=
+		qwL3h2sthMWLXXGRXK2Ma5fdXLU=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -289,7 +293,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NSX6w71jMTC6916rtDajKoq0mBB0Jbq41A/ttFAUxU8=
+			ftCqMLErzB70W2Hg5zMbvjLbgVlP5+AgnmoT+JrUxxI=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -303,21 +307,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jIpGso+miMR8GIcvQyBxL2xdUNI8iiFgHdvxarCWu1A=
+			LPtvbEe1kBp7UPnTpSB/0N7/FbjnguK703pu7BHdGI8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bi+iyOqmiaErJZGIumwuHSEEq7CHaKxtTw3QHn9Jq5c=
+			ff/xfwCPKC22JfYtC1EctbF0Wve6X1/gJk/UyvFmaNk=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sKszcVVmtPZlv/xGRjgs8chaVNy8+dzKC2bcCDXiUXw=
+			F36YkbA72SzN1jKZ40vVrD5hSL5RLItLnPRD7UWVn2k=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -376,6 +380,13 @@
 			c91/5EUJLetJSF/1pnqez9G9uu8uM9erCPQ/vzmrhHQ=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/quiz-logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m3XV0es7AC7R4ZQsKLJwHrHcXEYI+URRE+FuH2h/F1c=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<dict>
 			<key>hash2</key>
@@ -394,7 +405,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EbAhLX8ZocPnYb6195ETl9LILtJrZyE5xdqn1Vl/8aw=
+			jnAN7oAuqJGiwFUVlmow5c8oBHTHTo4MtrTkshGdaCA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
