@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:roll_dice_app/data/questions.dart';
 import 'package:roll_dice_app/question_screen.dart';
-import 'package:roll_dice_app/questions_summary.dart';
+import 'package:roll_dice_app/questions_summary/questions_summary.dart';
 
 class ResultsScreen extends StatelessWidget {
   const ResultsScreen({
